@@ -89,6 +89,16 @@ mso:
   auth: BEA8637716A7EB617DF472BA6552D22F68C1CB17B0D094D77DDA562F4ADAAC4457CAB848E1A4
   msoKey: 07a7159d3bf51a0e53be7a8f89699be7
   logPath: ./logs/openstack
+
+  
+  config:
+    cadi:
+      aafId: so@so.onap.org
+      aafPassword: enc:EME-arXn2lx8PO0f2kEtyK7VVGtAGWavXorFoxRmPO9
+  workflow:
+    endpoint: http://bpmn-infra:8081/sobpmnengine
+  
+  
   catalog:
     db:
       spring:

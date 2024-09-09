@@ -93,8 +93,9 @@ mso:
   
   config:
     cadi:
-      aafId: so@so.onap.org
-      aafPassword: enc:EME-arXn2lx8PO0f2kEtyK7VVGtAGWavXorFoxRmPO9
+      aafId: poBpmn
+      # aafId: so@so.onap.org
+      # aafPassword: enc:EME-arXn2lx8PO0f2kEtyK7VVGtAGWavXorFoxRmPO9
   workflow:
     endpoint: http://bpmn-infra:8081/sobpmnengine
   
